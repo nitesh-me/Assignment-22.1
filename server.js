@@ -17,5 +17,5 @@ app.get('/',(req,res)=>{
 });
 
 app.listen(port,()=>{
-    console.log("hewwllo dfsaajfbnbnswnfin fuiewi");
+    console.log("The app is listening at port 8000");
 });
