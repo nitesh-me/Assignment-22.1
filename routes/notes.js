@@ -5,6 +5,9 @@ var Notes = require('../models/notes')
 
 
 ///====================Routes for getting all the post=======================\\\
+router.get('/',(req,res)=>{
+    res.redirect('/notes');
+})
 
 router.get('/notes',(req,res)=>{
     Notes.find({},(err,allNotes)=>{
